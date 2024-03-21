@@ -12,3 +12,8 @@
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=jonasjbs" />
 </a>
 
+### link do meu projeto
+site basico tecnologias utilizadas Html, Css e Bootstrap
+link: https://jonasjbs.github.io/NoticiasJbs/
+
+
