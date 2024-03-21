@@ -14,8 +14,12 @@
 
 ### link do meu projeto
 
+##Meu perfil https://jonasjbs.github.io/NoticiasJbs/quemsomos.html
+
 site basico tecnologias utilizadas Html, Css e Bootstrap
 [![HTML](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white	)]( https://jonasjbs.github.io/NoticiasJbs/)
+
+
 
 
 
