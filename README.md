@@ -13,7 +13,11 @@
 </a>
 
 ### link do meu projeto
+
 site basico tecnologias utilizadas Html, Css e Bootstrap
-link: https://jonasjbs.github.io/NoticiasJbs/
+[![HTML](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white	)]( https://jonasjbs.github.io/NoticiasJbs/)
+
+
+
 
 
