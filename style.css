@@ -1,0 +1,51 @@
+/* style.css - Localizado na pasta css/ */
+
+/* Estilos de corpo básico e tipografia (7. Design Moderno) */
+body {
+    background-color: #f4f7f6; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo para os Cards */
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+/* Cores de ícones e textos para Receita e Despesa */
+.text-success { color: #28a745 !important; }
+.text-danger { color: #dc3545 !important; }
+
+/* Estilo para as linhas da tabela (Parte clicável) */
+#tabelaRegistros tbody tr {
+    cursor: pointer;
+}
+
+#tabelaRegistros tbody tr:hover {
+    background-color: #e9ecef; /* Um leve destaque ao passar o mouse */
+}
+
+/* Ajustes de responsividade para telas pequenas (6. Fluido e Compacto) */
+@media (max-width: 767px) {
+    .fs-4 { /* Ajusta o tamanho da fonte no dashboard em mobile */
+        font-size: 1.2rem !important;
+    }
+    .d-flex.flex-wrap > * {
+        flex-grow: 1; /* Faz os botões e seletores ocuparem a largura total em mobile */
+    }
+}
+
+/* Estilo para deixar a borda do input verde/vermelha dependendo do formulário */
+#formReceita input:focus, #formReceita select:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+#formDespesa input:focus, #formDespesa select:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
